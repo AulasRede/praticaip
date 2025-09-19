@@ -5,27 +5,25 @@
 ## 📚 1) Objetivos de Aprendizagem
 Ao final desta atividade, você será capaz de:
 - Identificar e explicar o **MAC address** de uma interface virtual na nuvem (EC2/ENI)
-- Visualizar e **configurar endereços IP** (incluindo endereço privado secundário via Console AWS)
+- Visualizar e **configurar endereços IP** 
 - Diferenciar **IP público vs IP privado** no contexto de VPC/EC2
 - Executar e interpretar **traceroute** (equivalente Linux ao TRACERT do Windows)
 - Revisar e aplicar conceitos de **máscara de rede (CIDR)**
-- Ler e modificar **tabelas de roteamento** (no SO e na VPC)
 - Entender e observar o funcionamento do **ARP** (cache de vizinhos)
 - Configurar e testar **conectividade de rede** entre VMs
-- Analisar **tráfego de rede** básico com ferramentas do Linux
+
 
 ---
 
 ## ⚙️ 2) Pré-requisitos
 - Estar inscrito na AWS Academy e no curso do Learn Lab
-- Conhecimentos básicos de redes TCP/IP
+- Conhecimentos básicos de redes (camada de enlace e rede)
 - Familiaridade com linha de comando Linux
-- Cliente SSH instalado (PuTTY no Windows ou terminal no Mac/Linux)
 
 ---
 
 ## 🏗️ 3) Visão Geral da Arquitetura
-Você criará **duas instâncias** Ubuntu Server 24.04 LTS (Noble) na **mesma subnet** IPv4 de um VPC. Cada instância terá um IP **privado** e (por praticidade) um IP **público** automático para SSH pela Internet.
+Você criará **duas instâncias** Ubuntu Server 24.04 LTS (Noble) na **mesma subnet** IPv4 de um VPC. Cada instância terá um IP **privado** e (por praticidade) um IP **público** automático 
 
 ```
 Seu Dispositivo (Internet)
@@ -114,7 +112,7 @@ traceroute --version
 ipcalc --version
 ```
 
-**📋 ENTREGÁVEL 1**: Screenshot mostrando a conexão SSH bem-sucedida para ambas as VMs e a instalação dos pacotes.
+**📋 ENTREGÁVEL 1**: Screenshot mostrando os comandos de verificacao da instalação em ambas VMS.
 
 ---
 
